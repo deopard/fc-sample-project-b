@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('BETA 버전의 A project입니다!');
+  res.send('Code Deploy로 배포된 A project입니다!');
 });
 
 app.listen(3000, function () {
